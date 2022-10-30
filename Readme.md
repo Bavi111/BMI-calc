@@ -1,6 +1,3 @@
-#BMI-calc
-Using BMI formula for weight(lbs) and height(in)
-
 height = float(input("Enter your height in inches: "))
 
 weight = float(input("Enter your weight in lbs: "))
@@ -11,7 +8,7 @@ print("Your Body Mass Index is ",BMI)
 
 if BMI > 0:
     
-	if BMI <= 16:
+     if BMI <= 16:
         print("You are severely underweight")
 
     elif BMI <= 18:
